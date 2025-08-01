@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apify Web App Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Apify Actor Runner</h1>
+        
+        <div class="card" id="auth-section">
+            <h2>1. Authenticate</h2>
+            <p>Enter your Apify API key to begin.</p>
+            <input type="password" id="apiKey" placeholder="Your Apify API Key">
+            <button id="authButton">Load Actors</button>
+        </div>
+
+        <div class="card hidden" id="actor-selection-section">
+            <h2>2. Select an Actor</h2>
+            <select id="actorSelect">
+                <option value="">-- Please choose an actor --</option>
+            </select>
+        </div>
+
+        <div class="card hidden" id="schema-section">
+            <h2>3. Provide Input</h2>
+            <form id="inputSchemaForm"></form>
+            <button id="runActorButton">Run Actor</button>
+        </div>
+        
+        <div class="card hidden" id="results-section">
+            <h2>4. Result</h2>
+            <div id="loader" class="hidden">Running...</div>
+            <pre id="resultsOutput"></pre>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
