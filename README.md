@@ -44,7 +44,7 @@ For testing purposes, I used the **Web Scraper (`apify/web-scraper`)** actor.
 ## Working Flow Demonstration
 
 1.  User lands on the page and is prompted for their Apify API Key.
-   <img width="1919" height="970" alt="Screenshot 2025-08-01 195937" src="https://github.com/user-attachments/assets/ef7cbc64-0d6f-47bc-829e-3f253feb6d8f" />
+    <img width="1919" height="970" alt="Screenshot 2025-08-01 195937" src="https://github.com/user-attachments/assets/ef7cbc64-0d6f-47bc-829e-3f253feb6d8f" />
 
 2.  After entering a valid key, the app fetches and displays a dropdown list of their available actors.
     <img width="1915" height="972" alt="Screenshot 2025-08-01 200533" src="https://github.com/user-attachments/assets/c2d21066-6685-4e5a-a6b3-ce2c510c22a4" />
