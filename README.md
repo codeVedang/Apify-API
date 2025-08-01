@@ -44,12 +44,16 @@ For testing purposes, I used the **Web Scraper (`apify/web-scraper`)** actor.
 ## Working Flow Demonstration
 
 1.  User lands on the page and is prompted for their Apify API Key.
-   
+   <img width="1919" height="970" alt="Screenshot 2025-08-01 195937" src="https://github.com/user-attachments/assets/ef7cbc64-0d6f-47bc-829e-3f253feb6d8f" />
+
 2.  After entering a valid key, the app fetches and displays a dropdown list of their available actors.
-    
+    <img width="1915" height="972" alt="Screenshot 2025-08-01 200533" src="https://github.com/user-attachments/assets/c2d21066-6685-4e5a-a6b3-ce2c510c22a4" />
+
 3.  Upon selecting an actor, the app fetches its input schema and dynamically generates a form.
-    
+    <img width="1919" height="968" alt="Screenshot 2025-08-01 202413" src="https://github.com/user-attachments/assets/a3f5e56b-ea92-4d3d-9136-d69fd80d5863" />
+
 4.  The user fills the form and clicks "Run Actor". A loader is displayed.
- 
-5.  Once the actor run is complete, the results (the first page of the actor's default dataset) are displayed as a JSON object on the page.
-    
+    <img width="1914" height="974" alt="Screenshot 2025-08-01 203735" src="https://github.com/user-attachments/assets/18905ef1-e9c0-4ad0-8f6a-674fcc9f0bd3" />
+
+5.  Once the actor run is complete, the results (the first page of the actor's default dataset) are displayed as a JSON object on the page.  
+    <img width="493" height="960" alt="Screenshot 2025-08-01 203352" src="https://github.com/user-attachments/assets/f9cbfe16-3d0f-44da-ac53-3b8a96bc5ac9" />
